@@ -25,8 +25,6 @@ public class frmQuanLyKhachHang extends javax.swing.JFrame {
 
         try {
             quanLyKhachHang = new QuanLyKhachHang();
-            this.model = new DefaultTableModel();
-            model.setColumnIdentifiers(new String[]{"Mã", "Họ Tên", "Địa Chỉ", "Số ĐT"});
 
             updateTable();
         } catch (Exception ex) {
@@ -37,6 +35,8 @@ public class frmQuanLyKhachHang extends javax.swing.JFrame {
 
     //Method
     private void updateTable() {
+        this.model = new DefaultTableModel();
+        model.setColumnIdentifiers(new String[]{"Mã", "Họ Tên", "Địa Chỉ", "Số ĐT"});
         if (this.model.getRowCount() > 0) {
             this.model.getDataVector().removeAllElements();
         }

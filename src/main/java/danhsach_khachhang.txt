@@ -1,3 +1,1 @@
-kh001#Minh Phuc#Tp Ho Chi Minh#0354077900
-kh002#Hoang Yen#Dong Nai#123456789
-kh003#Quan 9, tp Ho Chi Minh#Tran Minh Phuc#0765780797
+KH001#QUAN 9, TP HCM#Tran Minh Phuc#0354077900
